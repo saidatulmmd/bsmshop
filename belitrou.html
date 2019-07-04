@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Pembelian</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body bgcolor="lightcyan">
+    <div class="header">
+      <a href="belitop.html"><img src="images/but1.jpg"></a>
+      <a href="belidress.html"><img src="images/but2.jpg"></a>
+      <a href="belitrou.html"><img src="images/but3.jpg"></a>
+    </div>
+<form method="get" action="transfer.html">
+<table>
+    <tr>
+        <br>
+        <td>Ordering Item: </td>
+        <td><select name="tempat">
+            <option value="mtop"> Choose Trousers  </option>
+            <option value="trou01"> White ciggarette trousers </option>
+            <option value="trou02"> Smart stretch torusers </option>
+            <option value="trou03"> Lightblue super strecth trousers </option>
+            <option value="trou04"> Trousers skinny fit </option>
+            <option value="trou05"> Black super strect treggings </option>
+            <option value="trou06"> Black leggings with side stripees </option>
+            <option value="trou07"> Grey super strect treggings </option>
+            <option value="trou08"> Flower ankle length trousers </option>
+            <option value="trou09"> Sweat pants with strips side </option>
+            <option value="trou10"> Army paper bag trousers </option>
+            <option value="trou11"> Yellowgreen Cotton chinos </option>
+            <option value="trou12"> Stripe cullotes </option>
+            <option value="trou13"> Pull on trousers </option>
+            <option value="trou14"> Navy cotton chinos </option>
+            <option value="trou15"> Pattern weave trousers </option>
+            <option value="trou16"> Flower ciggarete trousers </option>
+            <option value="trou17"> Neon blue suit trousers </option>
+            <option value="trou18"> Navy Patterned trousers </option>
+            <option value="trou19"> Crepe trousers </option>
+            <option value="trou20"> Stripe ankle length trousers </option>
+            <option value="trou21"> Brown wide trousers </option>
+        </select></td>
+    </tr>
+    <tr>
+        <td>Name : </td>
+        <td><input type="text" name="nama" size="31"></td>
+    </tr>
+    <tr>
+        <td>Handphone No: </td>
+        <td><input type="text" name="telepon" size="31"></td>
+    </tr>
+     <tr>
+        <td>Mail Address : </td>
+        <td><input type="text" name="email" size="31"></td>
+    </tr>
+     <tr>
+        <td>Address : </td>
+        <td><label for="alamat"> </label>
+        <textarea id="alamat" rows="1" cols="24" wrap="virtual"> </textarea></td>
+    </tr>
+    <tr>
+        <td>City : </td>
+        <td><select name="tempat">
+            <option value="ksg"> Choose Destination City </option>
+            <option value="mlg"> Malang </option>
+            <option value="sby"> Surabaya </option>
+            <option value="btu"> Batu   </option>
+            <option value="prb"> Probolinggo </option>
+            <option value="kdr"> Kediri </option>
+            <option value="mdn"> Madiun </option>
+            <option value="jbr"> Jember </option>
+            <option value="psn"> Pasuruan </option>
+            <option value="tlg"> Tulungagung </option>
+            <option value="btr"> Blitar </option>
+            <option value="gsk"> Gresik </option>
+            <option value="bjr"> Bojonegoro </option>
+            <option value="jbg"> Jombang </option>
+            <option value="tgk"> Trenggalek </option>
+            <option value="tbn"> Tuban </option>
+            <option value="jkt"> Jakarta </option>
+            <option value="tgr"> Tangerang </option>
+            <option value="jgj"> Jogja </option>
+            <option value="smg"> Semarang </option>
+            <option value="kbn"> Kebumen </option>
+            <option value="bgr"> Bogor </option>
+            <option value="bpn"> Balikpapan </option>
+            <option value="smd"> Samarinda </option>
+            <option value="mdn"> Medan </option>
+            <option value="ach"> Aceh </option>
+            <option value="ntt"> NTT </option>
+            <option value="ntb"> NTB </option>
+            <option value="abn"> Ambon </option>   
+            <option value="bwh"> ------------------------------------- </option> 
+        </select></td>
+    </tr>
+    <tr>
+        <td>Postal Code : </td>
+        <td><input type="text" name="kodepos" size="31"></td>
+    </tr>
+    <tr>
+        <td>Shipping : </td>
+        <td><select name="pengiriman">
+            <option value="krm"> Choose Shipping Method </option>
+            <option value="reg"> JNE REG </option>
+            <option value="oke"> JNE OKE </option>
+            <option value="jnt"> JNT  </option>
+            <option value="tiki"> TIKI </option>
+            <option value="pos"> POS INDONESIA </option>
+            <option value="int"> INTERNATIONAL SHIPPING </option> 
+            <option value="bwh"> ------------------------------------- </option>  
+        </select></td>
+    </tr>
+    <tr>
+        <td>Pay Method : </td>
+        <td>
+            <input type="radio" name="opsi" value="bca">BCA
+            <input type="radio" name="opsi" value="bri">BRI
+            <input type="radio" name="opsi" value="bni">BNI
+            <input type="radio" name="opsi" value="man">Mandiri
+            
+        </td>
+    </tr>
+</table>
+<p>*We will send you an email to tell you total price you have to pay!</p>
+<a href="transfer.html" class="button">Buy</a>
+</form>
+</body>
+</html>

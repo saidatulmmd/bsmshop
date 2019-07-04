@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pembelian</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body bgcolor="lightcyan">
+	<div class="header">
+      <a href="belitop.html"><img src="images/but1.jpg"></a>
+      <a href="belidress.html"><img src="images/but2.jpg"></a>
+      <a href="belitrou.html"><img src="images/but3.jpg"></a>
+    </div>
+<form method="get" action="transfer.html">
+<table>
+    <tr>
+        <br>
+        <td>Ordering Item: </td>
+        <td><select name="tempat">
+            <option value="mtop"> Choose Top  </option>
+            <option value="top01"> Sky blue off-the-shouder top </option>
+            <option value="top02"> Black patterned  top </option>
+            <option value="top03"> White flowery v-neck top   </option>
+            <option value="top04"> Salmon ribbed jersey top </option>
+            <option value="top05"> Peach short jersey top </option>
+            <option value="top06"> Grey ribbed jersey top </option>
+            <option value="top07"> Pink long-sleeved flounced top </option>
+            <option value="top08"> Black long-sleeved flounced top </option>
+            <option value="top09"> White short cotton shirt </option>
+            <option value="top10"> Black flowery longsleeve jersey </option>
+            <option value="top11"> Flowery v-neck top </option>
+            <option value="top12"> Navy flowery v-neck top </option>
+            <option value="top13"> Ribbed top </option>
+            <option value="top14"> Yellow flower off shoulder top </option>
+            <option value="top15"> Black stripe short off shoulder </option>
+            <option value="top16"> Blue denim off-the-shouder to </option>
+            <option value="top17"> Sky blue off-the-shouder top </option>
+            <option value="top18"> Red off-the-shouder top </option>
+            <option value="top19"> Navy balloon-sleeved top </option>
+            <option value="top20"> Black jersey top with a lace yoke </option>
+            <option value="top21"> Red crepe top </option>
+            <option value="top22"> Navy flower longsleeve jersey </option>
+            <option value="top23"> Navy off-the-shouder top </option>
+            <option value="top24"> Pastel pink off-the-shouder top </option>
+            <option value="top25"> Short crop yellow shirt </option>
+            <option value="top26"> Black knot detail jersey top </option>
+            <option value="top27"> Grey ribbed top </option>
+            <option value="top28"> Red-white patterned top </option>
+            <option value="top29"> Peach knot detail jersey top </option>
+            <option value="top30"> Yellow tie-hem shirt </option>     
+        </select></td>
+    </tr>
+    <tr>
+        <td>Name : </td>
+        <td><input type="text" name="nama" size="31"></td>
+    </tr>
+    <tr>
+        <td>Handphone No: </td>
+        <td><input type="text" name="telepon" size="31"></td>
+    </tr>
+     <tr>
+        <td>Mail Address : </td>
+        <td><input type="text" name="email" size="31"></td>
+    </tr>
+     <tr>
+        <td>Address : </td>
+        <td><label for="alamat"> </label>
+        <textarea id="alamat" rows="1" cols="24" wrap="virtual"> </textarea></td>
+    </tr>
+    <tr>
+        <td>City : </td>
+        <td><select name="tempat">
+            <option value="ksg"> Choose Destination City </option>
+            <option value="mlg"> Malang </option>
+            <option value="sby"> Surabaya </option>
+            <option value="btu"> Batu   </option>
+            <option value="prb"> Probolinggo </option>
+            <option value="kdr"> Kediri </option>
+            <option value="mdn"> Madiun </option>
+            <option value="jbr"> Jember </option>
+            <option value="psn"> Pasuruan </option>
+            <option value="tlg"> Tulungagung </option>
+            <option value="btr"> Blitar </option>
+            <option value="gsk"> Gresik </option>
+            <option value="bjr"> Bojonegoro </option>
+            <option value="jbg"> Jombang </option>
+            <option value="tgk"> Trenggalek </option>
+            <option value="tbn"> Tuban </option>
+            <option value="jkt"> Jakarta </option>
+            <option value="tgr"> Tangerang </option>
+            <option value="jgj"> Jogja </option>
+            <option value="smg"> Semarang </option>
+            <option value="jgj"> Solo </option>
+            <option value="kbn"> Kebumen </option>
+            <option value="bgr"> Bogor </option>
+            <option value="bpn"> Balikpapan </option>
+            <option value="smd"> Samarinda </option>
+            <option value="mdn"> Medan </option>
+            <option value="ach"> Aceh </option>
+            <option value="ntt"> NTT </option>
+            <option value="ntb"> NTB </option>
+            <option value="abn"> Ambon </option>   
+            <option value="bwh"> ------------------------------------- </option> 
+        </select></td>
+    </tr>
+    <tr>
+        <td>Postal Code : </td>
+        <td><input type="text" name="kodepos" size="31"></td>
+    </tr>
+    <tr>
+        <td>Shipping : </td>
+        <td><select name="pengiriman">
+            <option value="krm"> Choose Shipping Method </option>
+            <option value="reg"> JNE REG </option>
+            <option value="oke"> JNE OKE </option>
+            <option value="jnt"> JNT  </option>
+            <option value="tiki"> TIKI </option>
+            <option value="pos"> POS INDONESIA </option>
+            <option value="int"> INTERNATIONAL SHIPPING </option> 
+            <option value="bwh"> ------------------------------------- </option>  
+        </select></td>
+    </tr>
+    <tr>
+        <td>Pay Method : </td>
+        <td>
+            <input type="radio" name="opsi" value="bca">BCA
+            <input type="radio" name="opsi" value="bri">BRI
+            <input type="radio" name="opsi" value="bni">BNI
+            <input type="radio" name="opsi" value="man">Mandiri
+            
+        </td>
+    </tr>
+</table>
+<p>*We will send you an email to tell you total price you have to pay!</p>
+<a href="transfer.html" class="button">Buy</a>
+</form>
+</body>
+</html>

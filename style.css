@@ -1,0 +1,39 @@
+.header{
+	padding:3px;
+	background-color:palegreen;
+	text-align:center;
+	font-family: monospace;
+	color: olivedrab;
+  	font-size: 15px;
+}
+.button
+{
+	background-color:palegreen;
+	color:green;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 16px;
+}
+.btnw-group {
+    margin:0px auto; 
+}
+.button:hover
+{
+	background-color:darkseagreen;
+}
+.buttonbuy
+{
+	background-color:palegreen;
+	color:green;
+    padding: 5px 12px;
+    text-align: center;
+    font-size: 13px;
+}
+.buttonbuy:hover
+{
+	background-color:darkseagreen;
+}
+.tengah
+{
+	text-align: center;
+}
